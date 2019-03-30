@@ -51,6 +51,7 @@
     <module>ilpv4-connector-service-impl</module>
     <module>ilpv4-connector-server</module>
     <module>ilpv4-connector-it</module>
+    <module>ilpv4-connector-performance</module>
   </modules>
 
   <dependencyManagement>
@@ -336,6 +337,7 @@
                   <ignoredDependency>org.springframework.boot:spring-boot-starter-actuator</ignoredDependency>
                   <ignoredDependency>org.springframework.boot:spring-boot-starter-test:jar</ignoredDependency>
                   <ignoredDependency>org.springframework.boot:spring-boot-configuration-processor:jar</ignoredDependency>
+                  <ignoredDependency>io.gatling.highcharts:gatling-charts-highcharts:jar</ignoredDependency>
                 </ignoredDependencies>
               </configuration>
             </execution>
